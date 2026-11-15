@@ -15,6 +15,17 @@ The React Compiler is not enabled on this template because of its impact on dev 
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
+cmd to clone the project:
+cd "parent folder directory to be cloned"
+git clone "https://github.com/Jevin2512/food_delivery.git"
+cd repo-name
+git status
+
+npm cmd to run and install:
+npm install for node modules
+cd "project directory"
+npm run dev
+
 
 Quick viva introduction
 “My project is Little Bite, a food delivery frontend built with React. Users can browse restaurants, search menus, filter restaurants by rating and dishes by vegetarian preference, add items to a cart, and place demo orders. Checkout happens inside the cart and includes delivery location selection, an itemized order summary, and demo payment options. I used local storage to keep the cart, theme preference, and order history in the browser. The project uses Vite to run and build the React app.”
